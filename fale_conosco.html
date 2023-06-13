@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+   
+    <!--Vincula arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Box Icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="d-flex-row p-5 align-center">
+                <div class="p-5">
+                    <a href="index.html">
+                        <img src="imagens/fly-airplane.png" alt="logo" class="logo">
+                    </a>
+                </div>
+                <nav class="p-5 ml-10">
+                    <ul class="d-flex-row navlink">
+                        <li>
+                            <a href="mapaVoo.html">Voos</a>
+                        </li>
+                        <li>
+                            <a href="fale_conosco.html" class="text-gray">Atendimento</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="p-5">
+                <a href="ticket.html">
+                    <img src="imagens/carrinho-de-compras.png" alt="carrinho" class="icone">
+                </a>
+            </div>
+        </header>
+        <main class="grow-1 p-15 bg-light d-flex-column ">
+            <div class="p-15">
+                <span class="font-25 bold-400">Fale Conosco</span>
+            </div>
+            <div class="p-15 text-justify">
+                <p class="text-justify font-18">
+                    Para falar sobre passagens aéreas entre em contato pelo telefone 21 2312-123. De Segunda a Domingo
+                    das 08:00 hrs as 18:00 hrs.
+                </p>
+            </div>
+            <div class="d-flex-row justify-end">
+                <button type="button" class="btn-outline">
+                    Ligar <i class='bx bxl-whatsapp'></i>
+                </button>
+            </div>
+            <div>
+                <div class="d-flex-row justify-between">
+                    <div class="grow-1 m-5">                   
+                        <div>
+                            <label class="text-gray" for="nome">Nome</label>
+                        </div>
+                        <div>
+                            <input type="text" name="nome" id="nome" class="input-form">
+                        </div>                   
+                    </div>
+
+                    <div class="grow-1 m-5">                   
+                        <div>
+                            <label class="text-gray" for="sobrenome">Sobrenome</label>
+                        </div>
+                        <div>
+                            <input type="text" name="sobrenome" id="sobrenome" class="input-form">
+                        </div>                   
+                    </div>
+                </div>
+
+                <div class="d-flex-row justify-between mt-10">
+                    <div class="grow-1 m-5">                   
+                        <div class="d-flex-row justify-between">
+                            <div>
+                                <label class="text-gray" for="assunto">Assunto</label>
+                            </div>
+                            <div>
+                                <span class="text-gray">Máx: 500</span>
+                            </div>
+                            
+                        </div>
+                        <div>
+                            <textarea name="assunto" id="assunto" class="input-text-form" maxlength="500" cols="30" rows="10"></textarea>
+                        </div>                   
+                    </div>
+                </div>
+              
+            </div>
+        </main>
+    </div>    
+</body>
+
+</html>

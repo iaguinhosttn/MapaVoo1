@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voos</title>
+
+    <!--Vincula arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        var url = location.search
+        var url_val = url.replace("?","")     
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="bg-transparent">
+            <div class="d-flex-row p-5 align-center">
+                <div class="p-5">
+                    <a href="index.html">
+                        <img src="imagens/fly-airplane.png" alt="logo" class="logo">
+                    </a>
+                </div>
+                <nav class="p-5 ml-10">
+                    <ul class="d-flex-row navlink">
+                        <li>
+                            <a href="voos.html" class="text-gray">Voos</a>
+                        </li>
+                        <li>
+                            <a href="fale_conosco.html">Atendimento</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="p-5">
+                <a href="ticket.html">
+                    <img src="imagens/carrinho-de-compras.png" alt="carrinho" class="icone">
+                </a>
+            </div>
+        </header>
+        <main class="grow-1 p-15 d-flex-column align-center ">
+            <div class="w-100 p-15">
+                <h2>Voos Internacionais</h2>
+            </div>
+            <div class="w-100" id="painel-voo">
+                <!--Inserir aqui as informações de voo via javascript-->
+            </div>
+        </main>
+    </div>
+
+    <script src="js/voo.js"></script>
+</body>
+
+</html>
+
